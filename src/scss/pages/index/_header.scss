@@ -1,0 +1,26 @@
+.header {
+    background-color: #02253b;
+
+    .container {
+        padding: 1em;
+    }
+
+    .container nav {
+        justify-content: space-between;
+    }
+
+    .container nav ul {
+        li {
+            padding-inline: 1em;
+            color: $link-color;
+        }
+
+        & a {
+            color: $link-color;
+
+            & i {
+                padding-inline: .5em;
+            }
+        }
+    }
+}

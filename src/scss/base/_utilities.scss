@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fefefe;
+    font-family: $font-stack;
+    font-size: 100%;
+    color: #141414;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    padding-bottom: 1em;
+}
+
+h1 {
+    line-height: 125% !important;
+    font-size: 3.5em;
+    font-weight: 300;
+    font-family: $header-font;
+    background: rgba(0, 0, 0, 0.70);
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.25em;
+    font-family: $header-font;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: $header-font;
+}
+
+a {
+    text-decoration: none;
+}
+
+.a-link {
+    text-transform: uppercase;
+}
+
+.list-style {
+    list-style: none;
+}
+
+.text-center {
+    text-align: center;
+}

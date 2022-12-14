@@ -1,0 +1,46 @@
+.main {
+    .container {
+        @include container(calc(100% + 2em), 1200px, hidden, 0 auto);
+
+        & .column {
+            width: calc(100% + 2em);
+            height: 50vh;
+            min-height: 500px;
+            position: relative;
+            background-image: url('../assets/hero3.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        & .column .intro {
+            width: 90%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translatex(-50%);
+        }
+
+        & .column .intro h1 {
+            color: $link-color;
+            font-weight: 300;
+            text-transform: uppercase;
+            padding-inline: 2em;
+            background-color: $hero-background;
+        }
+
+        & .row h3 {
+            padding: 2em;
+        }
+
+        & .row p {
+            text-align: left;
+        }
+
+        & .row .container {
+            @include grid(repeat(3, 1fr));
+            place-items: center;
+            padding: 2em 0;
+        }
+    }
+}
