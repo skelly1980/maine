@@ -107,9 +107,29 @@
                 </div>
             </div>
         </section>
-    </main>
 
-    <h1>goodbye</h1>
+        <section class="employers">
+            <div class="container">
+                <div class="employer-column-1 padding-6">
+                    <h2>For Employers: Train your workforce</h2>
+                    <p>This partnership can provide healthcare training to your staff and resources to help defray the costs of training. This is an opportunity to help staff advance in their careers and gain valuable credentials all while upskilling your workforce. Available trainings may include options
+                        to host on-site at your workplace, online, and at convenient locations in the community.</p>
+                    <p>Submit a training request today to learn more about how we can work with you to support and upskill your workforce!</p>
+                    <button class="hero-button margin-block-4">Employer Training Request</button>
+                    <br />
+                    <button class="hero-button">Upcoming Trainings</button>
+                </div>
+                <div class="employer-column-2 padding-6">
+                    <h2>Other Information</h2>
+                    <ul>
+                        <li><a href="#" target="_blank">Find other recruitment & retention resources</a></li>
+                        <li><a href="#" target="_blank">Explore healthcare career pathways (PDF)</a></li>
+                        <li><a href="#" target="_blank">Learn more about other programs to support your educational and career advancement journey including HOPE, CSSP, and loan repayment options from HRSA and FAME!</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
